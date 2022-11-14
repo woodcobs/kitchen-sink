@@ -2,6 +2,29 @@
 // start by getting references to the relevant DOM elements
 // make the specified modifications
 
-// 2. when click div console.log(which div it is on the page, i.e. 0..n-1)
+let relevantDOMElements = document.getElementsByTagName("li");
+// console.log(relevantDOMElements);
+// relevantDOMElements.forEach(elem => console.log(elem))
+for (let i = 0; i < relevantDOMElements.length; i++) {
+  console.log(i, relevantDOMElements[i]);
+  // if (i < (relevantDOMElements.length + 4) / 2) {
+  //   relevantDOMElements[i].innerText += ` ${i}`;
+  // } else {
+  //   relevantDOMElements[i].innerHTML += ` ${i}`;
+  // }
+  const textForI = document.createTextNode(` ${i}`);
+  relevantDOMElements[i].appendChild(textForI);
 
-// element with id "donut" is clicked, log the number of words in the element
+  document.create
+}
+
+// 2. when click div console.log(which div it is on the page, i.e. 0..n-1)
+// get a ref to each div in DOM
+relevantDOMElements = document.getElementsByTagName("div");
+Array.from(relevantDOMElements).forEach((divElem, i) => {
+console.log(`i: ${i} relevantDOMElements[i]: ${relevantDOMElements[i].innerText}`);
+})
+
+// add event listener to each div
+
+// 3. element with id "donut" is clicked, log the number of words in the element
