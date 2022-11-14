@@ -1,6 +1,8 @@
 /* 1. make li red*/
-
+li {
+  color: red;
+}
 
 /* 2. make div border orange */
 
-/* 3. */
+/* 3. make element with id "donut" background pink */

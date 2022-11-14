@@ -3,3 +3,5 @@
 // make the specified modifications
 
 // 2. when click div console.log(which div it is on the page, i.e. 0..n-1)
+
+// element with id "donut" is clicked, log the number of words in the element
