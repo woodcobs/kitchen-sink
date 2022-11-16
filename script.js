@@ -28,3 +28,8 @@ console.log(`i: ${i} relevantDOMElements[i]: ${relevantDOMElements[i].innerText}
 // add event listener to each div
 
 // 3. element with id "donut" is clicked, log the number of words in the element
+
+
+// 4. when aside clicked, window.prompt then add id with content from prompt to aside's parent, log target
+// 5. add an input with classname as the first child of preceding id's first aside
+// 6. log cowsay for the input
